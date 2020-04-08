@@ -1,2 +1,3 @@
 # poo
-ejercicios de poo
+SANTIAGO BABSIA 20837 
+SANTIAGO MONTION 

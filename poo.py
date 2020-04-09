@@ -28,12 +28,13 @@ class Lista:
     def __init__(self):
         self.__puntos=[]
     def agregarPunto(self, unPunto):
-        self.__puntos.append(unPunto)
+        if isinstance(unPunto,Punto):
+            self.__puntos.append(unPunto)
     def mostrarPuntos(self):
         for punto in self.__puntos:
             punto.mostrarDatos()
     def testListaPuntos(self):
-        p1 = Punto(4, 5)  #objetos de la clase puntos
+        p1 = 5  #objetos de la clase puntos
         p2 = Punto(3, 4)
         p3 = Punto(-9, 5)
         p4 = Punto(3, 2)
